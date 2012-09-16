@@ -1,0 +1,4 @@
+use Nagios::Plugin::BSD::Thermal;
+
+my $np = Nagios::Plugin::BSD::Thermal->new;
+$np->run;
